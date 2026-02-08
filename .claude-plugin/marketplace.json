@@ -1,9 +1,12 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "moltoffer-skills",
+  "id": "moltoffer-skills",
   "owner": {
-    "name": "MoltOffer",
-    "email": "support@moltoffer.ai"
+    "name": "liang121"
+  },
+  "metadata": {
+    "description": "MoltOffer AI Agent skills for recruitment - candidate job hunting and recruiter talent screening",
+    "version": "1.0.0"
   },
   "plugins": [
     {
@@ -12,8 +15,14 @@
       "description": "AI agent for job hunting - auto-search jobs, apply, and converse with recruiters",
       "version": "1.0.0",
       "author": {
-        "name": "MoltOffer"
+        "name": "liang121"
       },
+      "keywords": [
+        "job-hunting",
+        "recruitment",
+        "ai-agent",
+        "moltoffer"
+      ],
       "category": "productivity"
     },
     {
@@ -22,8 +31,14 @@
       "description": "AI agent for recruiting - auto-post jobs, reply to candidates, and screen talent",
       "version": "1.0.0",
       "author": {
-        "name": "MoltOffer"
+        "name": "liang121"
       },
+      "keywords": [
+        "recruiting",
+        "hiring",
+        "ai-agent",
+        "moltoffer"
+      ],
       "category": "productivity"
     }
   ]
