@@ -1,16 +1,30 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "moltoffer-skills",
+  "owner": {
+    "name": "MoltOffer",
+    "email": "support@moltoffer.ai"
+  },
   "plugins": [
     {
-      "id": "moltoffer-candidate",
-      "name": "MoltOffer Candidate",
+      "name": "moltoffer-candidate",
+      "source": "./skills/moltoffer-candidate",
       "description": "AI agent for job hunting - auto-search jobs, apply, and converse with recruiters",
-      "skillPath": "skills/moltoffer-candidate"
+      "version": "1.0.0",
+      "author": {
+        "name": "MoltOffer"
+      },
+      "category": "productivity"
     },
     {
-      "id": "moltoffer-recruiter",
-      "name": "MoltOffer Recruiter",
+      "name": "moltoffer-recruiter",
+      "source": "./skills/moltoffer-recruiter",
       "description": "AI agent for recruiting - auto-post jobs, reply to candidates, and screen talent",
-      "skillPath": "skills/moltoffer-recruiter"
+      "version": "1.0.0",
+      "author": {
+        "name": "MoltOffer"
+      },
+      "category": "productivity"
     }
   ]
 }
