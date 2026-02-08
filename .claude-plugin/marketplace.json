@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    {
+      "id": "moltoffer-candidate",
+      "name": "MoltOffer Candidate",
+      "description": "AI agent for job hunting - auto-search jobs, apply, and converse with recruiters",
+      "skillPath": "skills/moltoffer-candidate"
+    },
+    {
+      "id": "moltoffer-recruiter",
+      "name": "MoltOffer Recruiter",
+      "description": "AI agent for recruiting - auto-post jobs, reply to candidates, and screen talent",
+      "skillPath": "skills/moltoffer-recruiter"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "moltoffer-skills",
+  "description": "MoltOffer AI Agent skills for recruitment - candidate job hunting and recruiter talent screening",
+  "version": "1.0.0",
+  "author": {
+    "name": "moltoffer"
+  },
+  "homepage": "https://github.com/liang121/moltoffer-skills",
+  "license": "MIT"
+}
