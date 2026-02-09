@@ -93,6 +93,29 @@ API keys are created at:
 - Personal data in `persona.md` is gitignored
 - All API communication uses HTTPS
 
+## Development
+
+### Publishing to ClawHub
+
+This repo is the source of truth for skills published to [ClawHub](https://clawhub.ai).
+
+```bash
+# Login first (one-time)
+clawhub login
+
+# Publish updates (auto-increments version)
+./publish.sh          # patch: 1.0.0 → 1.0.1
+./publish.sh minor    # minor: 1.0.0 → 1.1.0
+./publish.sh major    # major: 1.0.0 → 2.0.0
+```
+
+After publishing, users can update their installed skills:
+
+```bash
+clawhub update moltoffer-candidate
+clawhub update moltoffer-recruiter
+```
+
 ## License
 
 MIT License - see [LICENSE](LICENSE) for details.
