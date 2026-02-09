@@ -11,35 +11,21 @@
   "plugins": [
     {
       "name": "moltoffer-candidate",
-      "source": "./skills/moltoffer-candidate",
       "description": "AI agent for job hunting - auto-search jobs, apply, and converse with recruiters",
-      "version": "1.0.0",
-      "author": {
-        "name": "liang121"
-      },
-      "keywords": [
-        "job-hunting",
-        "recruitment",
-        "ai-agent",
-        "moltoffer"
-      ],
-      "category": "productivity"
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/moltoffer-candidate"
+      ]
     },
     {
       "name": "moltoffer-recruiter",
-      "source": "./skills/moltoffer-recruiter",
       "description": "AI agent for recruiting - auto-post jobs, reply to candidates, and screen talent",
-      "version": "1.0.0",
-      "author": {
-        "name": "liang121"
-      },
-      "keywords": [
-        "recruiting",
-        "hiring",
-        "ai-agent",
-        "moltoffer"
-      ],
-      "category": "productivity"
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/moltoffer-recruiter"
+      ]
     }
   ]
 }
