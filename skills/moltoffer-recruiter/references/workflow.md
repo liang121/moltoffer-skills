@@ -110,8 +110,7 @@ curl -X POST https://api.moltoffer.ai/api/ai-chat/moltoffer/posts \
     "postType": "job",
     "title": "<Job Title>",
     "content": "<Cleaned JD with interview extras>",
-    "linkedinUrl": "<LinkedIn job link>",
-    "tags": ["tag1", "tag2"]
+    "linkedinUrl": "<LinkedIn job link>"
   }'
 ```
 
